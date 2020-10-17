@@ -30,7 +30,7 @@ function App() {
       el: bgRef.current,
       color: getRandomColor()
     })
-  }, [])
+  }, [bgRef])
 
   return (
     <div className="App">
