@@ -11,11 +11,6 @@ function App() {
       name: 'Simply Synonyms',
       url: 'https://synonyms.bweb.app/',
       description: 'The Chrome extension for a better vocabulary'
-    },
-    {
-      name: 'App 2 app',
-      url: 'https://google.com',
-      description: 'A very nice App'
     }
   ]
 
