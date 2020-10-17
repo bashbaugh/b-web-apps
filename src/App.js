@@ -1,7 +1,7 @@
 import React, { createRef, useEffect } from 'react';
 import WAVES from 'vanta/dist/vanta.waves.min'
-import FOG from 'vanta/dist/vanta.fog.min'
-import HALO from 'vanta/dist/vanta.halo.min'
+// import FOG from 'vanta/dist/vanta.fog.min'
+// import HALO from 'vanta/dist/vanta.halo.min'
 import './App.css';
 import AppCard from './AppCard'
 
