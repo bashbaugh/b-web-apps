@@ -1,0 +1,54 @@
+
+.AppCard {
+    flex-grow: 1;
+    flex-basis: 0;
+    /*width: 100%;*/
+    font-family: 'Libre Franklin', sans-serif;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+    /*background: linear-gradient(to bottom right, #282c34, #244884);*/
+    background: #cdd0db;
+    /*box-shadow: 5px 5px 5px 1px #2f2f2f;*/
+}
+
+.AppCard h4 {
+    font-weight: 400;
+}
+
+.AppCard p {
+    font-size: 0.6em;
+    font-weight: 100;
+}
+
+.AppCard:hover {
+    box-shadow: 10px 10px 10px 5px #2f2f2f;
+    transform: translate(-10px,-10px);
+
+    background: linear-gradient(306deg, #d02323, #ff9c29, #fff129, #92ff29, #29ff44, #29ffdb, #299fff, #2940ff, #a929ff, #ff29e4, #ff2944);
+    background-size: 2200% 2200%;
+
+    -webkit-animation: CardGradientAnimation 8s ease infinite;
+    -moz-animation: CardGradientAnimation 8s ease infinite;
+    animation: CardGradientAnimation 8s ease infinite;
+}
+
+@-webkit-keyframes CardGradientAnimation {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+@-moz-keyframes CardGradientAnimation {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+@keyframes CardGradientAnimation {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
