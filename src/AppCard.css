@@ -32,9 +32,9 @@
     background: linear-gradient(306deg, #d02323, #ff9c29, #fff129, #92ff29, #29ff44, #29ffdb, #299fff, #2940ff, #a929ff, #ff29e4, #ff2944);
     background-size: 2200% 2200%;
 
-    -webkit-animation: CardGradientAnimation 8s ease infinite;
-    -moz-animation: CardGradientAnimation 8s ease infinite;
-    animation: CardGradientAnimation 8s ease infinite;
+    -webkit-animation: CardGradientAnimation 20s ease infinite;
+    -moz-animation: CardGradientAnimation 20s ease infinite;
+    animation: CardGradientAnimation 20s ease infinite;
 }
 
 @-webkit-keyframes CardGradientAnimation {
