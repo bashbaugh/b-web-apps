@@ -9,7 +9,7 @@
     display: block;
     margin: 30px;
     padding: 10px 30px;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     border: 2px solid black;
     /*background: linear-gradient(to bottom right, #282c34, #244884);*/
     background: #cdd0db;
@@ -26,8 +26,8 @@
 }
 
 .AppCard:hover {
-    box-shadow: 10px 10px 10px 5px #2f2f2f;
-    transform: translate(-10px,-10px);
+    box-shadow: 4px 4px 10px -1px #2f2f2f;
+    transform: translate(-2px, -2px);
 
     background: linear-gradient(306deg, #d02323, #ff9c29, #fff129, #92ff29, #29ff44, #29ffdb, #299fff, #2940ff, #a929ff, #ff29e4, #ff2944);
     background-size: 2200% 2200%;

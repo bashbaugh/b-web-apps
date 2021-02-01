@@ -9,13 +9,13 @@ function App() {
   const myApps = [
     {
       name: 'Simply Synonyms',
-      url: 'https://synonyms.bweb.app/',
+      url: 'https://synonyms.bweb.app/?ref=bweb',
       description: 'The Chrome extension for a better vocabulary'
     },
     {
       name: 'Tools',
-      url: 'https://synonyms.bweb.app/',
-      description: 'A collection of useful productivity tools'
+      url: 'https://tools.bweb.app/?ref=bweb',
+      description: 'A collection of useful tools, apps and software'
     }
   ]
 
